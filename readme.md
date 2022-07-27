@@ -10,4 +10,10 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+* git clone repo <https://github.com/ObelusFamily/Anythink-Market-z2f1l.git>
+* Install Docker
+* cd into Anythink-Market-z2f1l and docker-compose up
+* The backend may fail the first time to start. Wait for all other processes to start and restart backend container. It's a timing thing that happens once.
+* Open browser to here: <http://localhost:3001/register>
+* Create user.
+* Done.
